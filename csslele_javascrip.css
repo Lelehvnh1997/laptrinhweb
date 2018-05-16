@@ -1,0 +1,50 @@
+html
+{
+    background: white
+}
+body
+{ 
+    margin: 17px 0 15px 0;
+    padding: 0;
+    text-align: center;
+    font-size: small;
+    font-family: Century Schoolbook;
+    background: lightcyan;
+}
+#container
+{
+    text-align: left;
+    background: #d6d6c2;
+    border: 1px solid #ccc
+}
+#container
+{
+    margin: 0 auto 10px;
+    width: 640px
+}
+form ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+form ul li
+{
+    padding-bottom: 7px
+}
+lable{display: block; padding: 13px 0}
+input[type="submit"]{padding: 2px 30px}
+.contact-form{margin: 20px 14px 0 14px; padding: 0 0 20px 0; position: relative}
+.contact-form li {width: 64%}
+.required,.error { color: red ; }
+.btn-primary {
+    color: #fff;
+    background-color: #28a745;
+    font-size: 15px;
+  }
+.btn1-primary {
+    color: #fff;
+    background-color: #e91527;
+    font-size: 15px;
+  }
+.hide{display: none}
