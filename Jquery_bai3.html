@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8"></meta>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#demo").click(function(){
+    $("#demo").hide();
+    });
+    $(".test").click(function(){
+    $(".test").hide();
+    });
+});
+</script>
+</head>
+<body>
+<span><font size="6" color="red">Sử dụng jquery ẩn đi tất cả các thẻ có class là test và các thẻ có id là demo</font></span>
+<h2 class="test">This is a heading</h2>
+
+<p class="test">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<p id="demo">This is a demo p.</p>
+</body>
+</html>
